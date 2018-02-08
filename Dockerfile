@@ -6,19 +6,10 @@ FROM ubuntu:latest
 MAINTAINER Jan Lochmatter <jan@janlochmatter.ch>
 RUN apt-get update && apt-get -y install \
   gawk \
-  make \
+  build-essential \
   git \
   doxygen \
   graphviz \
-  texlive-latex-base \
-  texlive-latex-recommended \
-  texlive-latex-extra \
-  texlive-extra-utils \
-  texlive-generic-recommended \
-  texlive-fonts-extra \
-  texlive-bibtex-extra \
+  texlive-full \
   ingerman \
-  texlive-lang-german \
-  texlive-publishers \
-  latexmk \
   inkscape
