@@ -12,5 +12,6 @@ RUN apt-get update && apt-get -y install \
   graphviz \
   texlive-full \
   ingerman \
+  cm-super \
   biber \
   inkscape
