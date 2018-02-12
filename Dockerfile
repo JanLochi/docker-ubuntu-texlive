@@ -2,7 +2,7 @@
 # Dockerfile to build Texlive container images
 # Based on Ubuntu
 ############################################################
-FROM ubuntu:latest
+FROM ubuntu:artful
 MAINTAINER Jan Lochmatter <jan@janlochmatter.ch>
 RUN apt-get update && apt-get -y install \
   gawk \
